@@ -9,4 +9,23 @@ body{
     font-family: cursive;
 
 }
-
+#contenedor img {
+    display: flex;
+    justify-content: end;
+    width: 96%;
+    height: 400px;
+    position: fixed;
+    left: 30px;
+   
+}
+#contenedor{
+    background-color:#82c3a6 ;
+    
+}
+.paginas{
+    margin-left: 1200px;
+    margin-top: -50px;
+}
+.paginas {
+    word-spacing: 40px;
+}
