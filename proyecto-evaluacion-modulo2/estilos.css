@@ -90,3 +90,26 @@ border:1px;
     letter-spacing: 5px;
     text-decoration: underline;
 }
+#caja2:hover {
+    transform: rotate(10deg);
+    box-shadow: #82c3a6 ;
+    border:2px;
+
+}
+#caja3:hover {
+    transform:translate(20px,-5px);
+    box-shadow:#82c3a6  ;
+    border:2px;
+}
+/*pie de pagina*/
+
+.pieDePagina{
+    background-color:#C6d5c5 ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: 4 column ;
+margin-left: -100px;
+margin-right: -100px;
+
+border:1px;
+}
