@@ -110,6 +110,43 @@ border:1px;
     flex-direction: 4 column ;
 margin-left: -100px;
 margin-right: -100px;
-
 border:1px;
 }
+#terceros img{
+    display: flex;
+    flex-direction: column ; 
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+h2 {
+    font-family: 'Bangers', cursive; 
+    font-size: 30px; 
+}
+h4 , p  {
+    font-family: 'Fugaz One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+
+/* pagina paisajes*/
+#cajas1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 280px;
+    }
+#primeras #segundas {
+        display: flex;
+        justify-content: center;
+        background-color: #82c3a6;  
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+
+
+
+
