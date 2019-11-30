@@ -132,21 +132,6 @@ h4 , p  {
 
 
 
-/* pagina paisajes*/
-#cajas1 img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 400px;
-    height: 280px;
-    }
-#primeras #segundas {
-        display: flex;
-        justify-content: center;
-        background-color: #82c3a6;  
-        margin-left: -100px;
-        margin-right: -100px;
-    }
-
 
 
 

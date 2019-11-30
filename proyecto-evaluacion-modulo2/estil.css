@@ -1,0 +1,41 @@
+
+
+article[class^="caja"]{
+    border: none;
+    display: inline-block;
+    width: 400px;
+    height: 220px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+  }
+img{
+    width: 400px;
+    height: 220px;
+}
+.paginapaisajes{
+    text-decoration: inherit;
+}
+.paginainicio{
+    text-decoration: underline;
+}
+.container{
+    background-color:#d5c75f  ;
+   
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.cajaA img {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.cajaB , .cajaD , .cajaF img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.cajaC img {
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+
