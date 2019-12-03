@@ -110,7 +110,7 @@ border:1px;
     flex-direction: 4 column ;
 margin-left: -100px;
 margin-right: -100px;
-border:1px;
+border-radius:10px;
 }
 #terceros img{
     display: flex;
@@ -127,11 +127,82 @@ h4 , p  {
     font-family: 'Fugaz One', cursive;
     font-size: 15px;
 }
+/*nav */
+@media screen and (max-width:960px){
+    .paginas{
+        width:100%;
+        margin:0 auto; 
+        font-size: 2em;
+    }
+    
+    }
+    @media screen and (max-width:640px){
+        .paginas{
+            width:100%;
+            margin:0 auto;  
+            font-size: 1em;    
+        }
+        
+        }
+        @media screen and (min-width:480px){
+            
+            .paginainicio{
+                width: 100%;
+                order:1;
+                
+                
+            }
+            .paginapaisajes{
+                width: 100%;
+                order:2;
+                
+            }
+            .paginaretrato{
+                width: 100%;
+                order:3;
+            }
+            } 
+        
+            
+    /*fotografia*/        
+            } 
+            @media screen and (max-width:960px){
+                
+               #fotografia{
+                   width: 100%;
+                   margin:0 auto;
+               } 
+                
+                }
+                @media screen and (max-width:640px){
+                    #fotografia{
+                        width: 100%;
+                        margin:0 auto;
+                    } 
+                   
+                    
+                    }
+                    @media screen and (max-width:480px){
+                        #fotografia{
+                            width: 100%;
+                            margin:0 auto;
+                        }    
+                        
+                        } 
+    /*cajas todas */
 
+    @media screen and (max-width:480px){
 
+        #caja img{
+            width: 100%;
+            margin:0 auto;
+        }
+        #caja3 img{
+            width: 100%;
+        }
+        #caja2 img{
+            width: 100%;
+             
 
-
-
-
-
-
+        }
+    }
