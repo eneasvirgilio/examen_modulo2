@@ -12,37 +12,37 @@ body {
     text-shadow: 2px  #02010a;
     font-size: 30px;
     font-family: cursive; 
+   
 }
  
 /*barra de navegacion*/
-.paginas{
-    margin-left: 2000px;
-}
-.paginas{
-  
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: 'Luckiest Guy', cursive; 
-    color:black;
+ nav{
+     margin-left: 1100px;
+     margin-top: -50px;
+     color:whitesmoke;
+     font-family: cursive;
+     font-size: 25px;
+     text-transform: uppercase;
+ }
+ .paginainicio{
+     color:whitesmoke;
+     text-decoration: inherit;
+ }
+ .paginapaisajes{
+    color:whitesmoke;
     
-    
 }
-.paginas a:hover {
-
+.paginaretrato{
+    color:whitesmoke;
+}
+.paginainicio:hover{
     color: chartreuse;
-      }
-.paginainicio {
-    text-decoration: inherit;
-    color:white; 
-    width: 0px; 
 }
-.paginapaisajes{
-    color:white;
+.paginapaisajes:hover{
+    color: chocolate;
 }
-.paginaretratos{
-    color:white;
-    
-    
+.paginaretrato:hover{
+    color: gold;
 }
 /*cajas*/
 
@@ -136,26 +136,29 @@ h4 , p  {
 
 /*nav */
 @media screen and (max-width:960px){
-    .paginas{
-        width:100%;
-        margin:0 auto; 
-        
-    }}
-@media screen and (max-width:640px){
-    .paginas{
-        width:100%;
-        margin:0 auto;  
-           
-        }}
-@media screen and (min-width:480px){
-    .paginas{
-        width:100%;
+    nav{
+        width: 100%;
         margin:0 auto;
+    }
+}
+@media screen and (max-width:640px){
+    nav{
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
         font-size:15px;
-        display: flex;  
-        justify-content: space-around ;
-          
-        }}
+       
+    }
+    }
+@media screen and (min-width:480px){
+    nav{
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        font-size:15px;
+    } 
+
+}
         
             
     /*fotografia*/        
@@ -163,13 +166,16 @@ h4 , p  {
     @media screen and (max-width:960px){
            #fotografia{
                    width: 100%;
-                   margin:0 auto;} 
+                   margin:0 auto;
+                text-align: center;} 
                 }
     @media screen and (max-width:640px){
             #fotografia{
                    width: 100%;
                    margin:0 auto;
-                   
+                   display: flex;
+                   justify-content: center;
+                   margin-left: 185px;
                     } 
                 }
     @media screen and (max-width:480px){
@@ -179,11 +185,12 @@ h4 , p  {
                    font-size: 15px;
                    display: flex;
                    justify-content: center;
+                   
                         }    
                 }
                 
                 
-    /*cajas todas */
+    /*cajas principal */
 
     @media screen and (max-width:480px){
 
@@ -192,18 +199,22 @@ h4 , p  {
             margin:0 auto;
         }
     }
-    
+    /*cajas de abajo*/
+    @media screen and (max-width:480px){
+        .cajasDeabajo{
+            display:flex;
+            justify-items: left;     }
+    }
+
     @media screen and (max-width:480px){
 
         #caja2 img{
             width: 100%;
-            display: flex;
-            justify-content: center;
-    }}
-    @media screen and (max-width:480px){
-
+            order:2;
+    }
+   
         #caja3 img{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-    }} 
+            width: 80%;
+            order:1;
+    }
+}
