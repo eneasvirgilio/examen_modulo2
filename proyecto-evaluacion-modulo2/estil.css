@@ -15,3 +15,25 @@ article[class^="caja"]{
 }
 /* paisajes */
 
+img {
+  width:400px;
+  height: 300px;
+  margin-left:-50px;
+  margin-bottom: 20px;
+}
+.cajaA, .cajaAA img {
+  -webkit-filter:blur(10px);
+   filter:blur(10px),
+}
+.cajaB,.cajaD, .cajaF img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.cajaBB,.cajaDD, .cajaFF img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.cajaC, .cajaCC img {
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}

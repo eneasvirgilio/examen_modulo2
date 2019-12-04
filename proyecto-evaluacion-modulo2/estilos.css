@@ -10,8 +10,8 @@ body {
     color: blanchedalmond;
     margin-left: 10px;
     text-shadow: 2px  #02010a;
-    font-size: 30px;
-    font-family: cursive; 
+    font-size: 39px;
+    font-family: 'Mansalva', cursive; 
    
 }
  
@@ -19,9 +19,12 @@ body {
 nav{
     margin-left: 1100px;
     color:whitesmoke;
-    font-family: cursive;
-    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
     text-transform: uppercase;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
    
 }
 
@@ -114,7 +117,7 @@ nav{
     display: flex;
     justify-content: space-around;
     flex-direction: 4 column ;
-margin-left: -100px;
+margin-left: -80px;
 margin-right: -100px;
 border-radius:10px;
 }
@@ -126,12 +129,17 @@ border-radius:10px;
     height: 30px;
 }
 h2 {
-    font-family: 'Bangers', cursive; 
-    font-size: 30px; 
+    font-family: 'Mansalva', cursive; 
+    font-size: 20px; 
+    margin-left: 0px;
 }
 h4 , p  {
     font-family: 'Fugaz One', cursive;
     font-size: 15px;
+    margin-left: 20px;
+}
+#copy{
+    margin-left: -20px;
 }
 
 /*medias*/
