@@ -16,14 +16,16 @@ body {
 }
  
 /*barra de navegacion*/
- nav{
-     margin-left: 1100px;
-     margin-top: -50px;
-     color:whitesmoke;
-     font-family: cursive;
-     font-size: 25px;
-     text-transform: uppercase;
- }
+nav{
+    margin-left: 1100px;
+    color:whitesmoke;
+    font-family: cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+
+
  .paginainicio{
      color:whitesmoke;
      text-decoration: inherit;
@@ -132,89 +134,60 @@ h4 , p  {
     font-size: 15px;
 }
 
-
-
-/*nav */
-@media screen and (max-width:960px){
-    nav{
-        width: 100%;
-        margin:0 auto;
-    }
-}
-@media screen and (max-width:640px){
-    nav{
-        width: 100%;
-        margin:0 auto;
+/*medias*/
+/* titulo y nav y cajas*/
+@media screen and (max-width:900px){
+    #fotografia{
+        width:100%;
         text-align: center;
-        font-size:15px;
-       
+        margin-left: 110px;
     }
+    nav {
+        width:100%;
+        margin-left: 140px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
     }
-@media screen and (min-width:480px){
-    nav{
+    .contenedor{
         width: 100%;
-        margin:0 auto;
-        text-align: center;
-        font-size:15px;
-    } 
-
-}
+        margin-left: 100px;
         
-            
-    /*fotografia*/        
-            
-    @media screen and (max-width:960px){
-           #fotografia{
-                   width: 100%;
-                   margin:0 auto;
-                text-align: center;} 
-                }
-    @media screen and (max-width:640px){
-            #fotografia{
-                   width: 100%;
-                   margin:0 auto;
-                   display: flex;
-                   justify-content: center;
-                   margin-left: 185px;
-                    } 
-                }
-    @media screen and (max-width:480px){
-            #fotografia{
-                   width: 100%;
-                   margin:0 auto;
-                   font-size: 15px;
-                   display: flex;
-                   justify-content: center;
-                   
-                        }    
-                }
-                
-                
-    /*cajas principal */
-
-    @media screen and (max-width:480px){
-
-        #caja img{
-            width: 100%;
-            margin:0 auto;
-        }
     }
-    /*cajas de abajo*/
-    @media screen and (max-width:480px){
-        .cajasDeabajo{
-            display:flex;
-            justify-items: left;     }
+    #caja img{
+        width: 100%;
+        margin-right: 800px;
+        margin-left:0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -10px;
+    }
+   .pieDePagina{
+        width: 100%;
+        margin-left: 70px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #primeros{
+        width: 100%;
+        font-size:10px;
+        font-family: cursive;
+    }
+    #segundos{
+        width: 100%;
+        font-size:10px;
+        font-family: cursive;
+    }
+    #terceros{
+        width: 100%;
+        font-size:10px;
+        font-family: cursive;
+    }
+    #cuartos{
+        width: 100%;
+        font-size:10px;
+        font-family: cursive;
     }
 
-    @media screen and (max-width:480px){
-
-        #caja2 img{
-            width: 100%;
-            order:2;
-    }
-   
-        #caja3 img{
-            width: 80%;
-            order:1;
-    }
 }
