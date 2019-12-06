@@ -20,6 +20,7 @@ img {
   height: 300px;
   margin-left:-50px;
   margin-bottom: 20px;
+  text-shadow: 2px#02010a ;
 }
 .cajaA, .cajaAA img {
   -webkit-filter:blur(10px);
