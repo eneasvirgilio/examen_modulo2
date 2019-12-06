@@ -203,12 +203,13 @@ h4 , p  {
     body{
         display: flex;
         flex-direction: column;
+       
     }
     #cajasDeabajo{
         display: flex;
         flex-direction: column;
         margin-left:-120px;
-        margin-right: -100px;
+        margin-right: 0px;
      
     }
     #caja3 img {
@@ -225,7 +226,7 @@ h4 , p  {
     .pieDePagina{
         display: flex;
         flex-direction: column;
-        margin-left: -10px; 
+        margin-left: 0px; 
         margin-top:5px;
         justify-content: center;
 
@@ -239,14 +240,16 @@ h4 , p  {
        height: 200px;
        display: flex;
        justify-items: center;
-       margin-left: 35px;
+       margin-left: 45px;
        margin-bottom: 60px;
        
     }
     .contenedor{
         
         width: 400px;
-        margin-left: -30px;
+        margin-left: -20px;
+        animation-duration: 3s;
+        animation-name: slidein;
     
        
     }
@@ -275,4 +278,15 @@ h4 , p  {
         border:2px;
     }
 }
-         
+@keyframes slidein {
+    from {
+      margin-top: 150%;
+      width: 300%
+    }
+  
+    to {
+     margin-top: 5%;
+     width: 300%;
+
+    }
+  }

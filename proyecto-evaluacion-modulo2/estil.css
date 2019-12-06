@@ -18,7 +18,7 @@ article[class^="caja"]{
 img {
   width:400px;
   height: 300px;
-  margin-left:-50px;
+  margin-left:-80px;
   margin-bottom: 20px;
   text-shadow: 2px#02010a ;
 }
@@ -37,4 +37,30 @@ img {
 .cajaC, .cajaCC img {
   -webkit-filter: sepia(90%);
   filter: sepia(90%);
+}
+/*para galasy s5*/
+@media screen and (max-width:360px){
+img{
+  width: 330px;
+  margin-left:-150px;
+}
+#terceros{
+  text-align: center;
+}
+.container{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+}
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    width: 300%
+  }
+
+  to {
+   margin-top: 5%;
+   width: 300%;
+
+  }
 }
