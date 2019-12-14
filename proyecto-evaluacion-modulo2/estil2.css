@@ -1,0 +1,556 @@
+body {
+    background-color: #02010a;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    margin: 0px 80px 0px -80px; 
+  }
+  
+  /*cabezera*/
+  
+  header{
+  background-color:#5b7989;
+  display: flex;
+  flex-direction: 2 column;
+  color: white;
+  justify-content: space-around;
+  border-radius: 10px 10px 0px 0px;
+  width: 80%;
+  height: 130px;
+  margin:10px 60px -10px 176px;
+  
+  }
+  
+  nav{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  #fotografia{
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px #02010a;
+    margin-left: 0px;
+    
+  }
+  
+  a {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .paginainicio:hover{
+     color: chartreuse;
+  }
+  .paginapaisajes:hover{
+    color: chartreuse;
+  }
+  .paginaretrato:hover{
+    color: chartreuse;
+  }
+  .paginapaisajes{
+    text-decoration: underline;
+    margin:0px 12px 0px 12px;
+  }
+  .paginaretrato{
+    text-decoration: inherit;
+  }
+  .paginainicio{
+    margin:0px 13px 0px 3px;
+    text-decoration: underline;
+  }
+  
+  /* la parte del medio */
+  .container{
+    background-color: #d5c75f ;
+    margin:10px 97px -10px 176px;
+    display:flex;
+    flex-direction:  column; 
+    width: 80%;
+  }
+  #cajasArriba{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px 15px 200px;
+    justify-content: space-around;
+  }
+  #cajasAbajo{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px 15px 200px;
+    justify-content: space-around;
+  }
+  img{
+    width:210px;
+    height: 200px;
+    margin: 0px 10px 0px 10px;
+  }
+  /*pie de pagina*/
+  #pieDePagina{
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: 4 column;
+    justify-content: space-around;
+    margin:-10px 60px 50px 176px;
+    width: 80%;
+    height: 200px;
+    
+  }
+  #redes img {
+    width: 15px;
+    height: 15px;
+  }
+  p{
+  font-size: 10px;
+  }
+  #redes h2{
+  font-size: 15px;
+  margin-top:0px;
+  }
+  #iconos{
+    display: flex;
+    flex-direction: column;
+  }
+  #logos{
+    display: flex;
+    flex-direction: row;
+  }
+  #logos2{
+    display: flex;
+    flex-direction: row;
+  }
+  #logos3{
+    display: flex;
+    flex-direction: row;
+  } 
+
+
+  /*_________________________________________________*/
+  /* 900 px */
+  
+  @media screen and (max-width:900px){
+  
+    body {
+      background-color: #02010a;
+      font-family: 'Dancing Script', cursive;
+      width: 100%;
+      margin: 0px 80px 0px -80px; 
+    }
+    
+    /*cabezera*/
+    
+    header{
+    background-color:#5b7989;
+    display: flex;
+    flex-direction: 2 column;
+    color: white;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    width: 80%;
+    height: 130px;
+    margin:10px 60px -10px 176px;
+    
+    }
+    
+    nav{
+      margin-top:50px;
+      display: flex;
+      justify-content: space-around; 
+    }
+    
+    #fotografia{
+      color: white;
+      font-size: 25px;
+      text-shadow: 2px #02010a;
+      margin-left: 0px;
+      
+    }
+    
+    a {
+      color: white;
+      font-size: 25px;
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    
+    .paginainicio:hover{
+       color: chartreuse;
+    }
+    .paginapaisajes:hover{
+      color: chartreuse;
+    }
+    .paginaretrato:hover{
+      color: chartreuse;
+    }
+    .paginapaisajes{
+      text-decoration: inherit;
+      margin:0px 12px 0px 12px;
+    }
+    .paginaretrato{
+      text-decoration: underline;
+    }
+    .paginainicio{
+      margin:0px 13px 0px 3px;
+      text-decoration: underline;
+    }
+    
+    /* la parte del medio */
+    .container{
+      background-color: #d5c75f ;
+      margin:10px 97px -10px 176px;
+      display:flex;
+      flex-direction:  column; 
+      width: 80%;
+    }
+    #cajasArriba{
+      display: flex;
+      flex-direction: row;
+      margin: 10px 200px 10px 210px;
+      justify-content: space-around;
+    }
+    #cajasAbajo{
+      display: flex;
+      flex-direction: row;
+      margin: 10px 200px 10px 210px;
+      justify-content: space-around;
+    }
+    img{
+      width:145px;
+      height: 110px;
+      margin: 0px 30px 0px 30px;
+    }
+    /*pie de pagina*/
+    #pieDePagina{
+      background-color: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;
+      display: flex;
+      flex-direction: 4 column;
+      justify-content: space-evenly;
+      margin:-10px 60px 100px 176px;
+      width: 80%;
+      
+    }
+    #redes img {
+      width: 20px;
+      height: 20px;
+    }
+    p{
+    font-size: 10px;
+    }
+    #redes h2{
+    font-size: 15px;
+    margin-top:0px;
+    }
+    #iconos{
+      display: flex;
+      flex-direction: column;
+    }
+    #logos{
+      display: flex;
+      flex-direction: row;
+    }
+    #logos2{
+      display: flex;
+      flex-direction: row;
+    }
+    #logos3{
+      display: flex;
+      flex-direction: row;
+    } 
+  }
+  
+  /* 768 px */
+  
+  @media screen and (max-width:768px){
+  
+    body {
+      background-color: #02010a;
+      font-family: 'Dancing Script', cursive;
+      width: 100%;
+      margin: 0px 80px 0px -80px; 
+    }
+    
+    /*cabezera*/
+    
+    header{
+    background-color:#5b7989;
+    display: flex;
+    flex-direction: 2 column;
+    color: white;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    width: 80%;
+    height: 130px;
+    margin:10px 60px -10px 176px;
+    
+    }
+    
+    nav{
+      margin-top:50px;
+      display: flex;
+      justify-content: space-around; 
+    }
+    
+    #fotografia{
+      color: white;
+      font-size: 19px;
+      text-shadow: 2px #02010a;
+      margin-left: 0px;
+      
+    }
+    
+    a {
+      color: white;
+      font-size: 19px;
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    
+    .paginainicio:hover{
+       color: chartreuse;
+    }
+    .paginapaisajes:hover{
+      color: chartreuse;
+    }
+    .paginaretrato:hover{
+      color: chartreuse;
+    }
+    .paginapaisajes{
+      text-decoration: inherit;
+      margin:0px 12px 0px 12px;
+    }
+    .paginaretrato{
+      text-decoration: underline;
+    }
+    .paginainicio{
+      margin:0px 13px 0px 3px;
+      text-decoration: underline;
+    }
+    
+    /* la parte del medio */
+    .container{
+      background-color: #d5c75f ;
+      margin:10px 97px -10px 176px;
+      display:flex;
+      flex-direction:  column; 
+      width: 80%;
+    }
+    #cajasArriba{
+      display: flex;
+      flex-direction: row;
+      margin: 10px 200px 10px 210px;
+      justify-content: space-around;
+    }
+    #cajasAbajo{
+      display: flex;
+      flex-direction: row;
+      margin: 10px 200px 10px 210px;
+      justify-content: space-around;
+    }
+    img{
+      width:120px;
+      height: 90px;
+      margin: 0px 20px 0px 20px;
+    }
+    /*pie de pagina*/
+    #pieDePagina{
+      background-color: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;
+      display: flex;
+      flex-direction: 4 column;
+      justify-content: space-evenly;
+      margin:-10px 60px 100px 176px;
+      width: 80%;
+      
+    }
+    #redes img {
+      width: 20px;
+      height: 20px;
+    }
+    p{
+    font-size: 10px;
+    }
+    #redes h2{
+    font-size: 15px;
+    margin-top:0px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    #iconos{
+      display: flex;
+      flex-direction: column;
+    }
+    #logos{
+      display: flex;
+      flex-direction: row;
+    }
+    #logos2{
+      display: flex;
+      flex-direction: row;
+    }
+    #logos3{
+      display: flex;
+      flex-direction: row;
+    } 
+  }
+  
+  /*___________________________________________________*/
+  /* 320 px */
+  
+  
+  
+  @media screen and (max-width:320px){
+  
+    body {
+      background-color: #02010a;
+      font-family: 'Dancing Script', cursive;
+      width: 100%;
+      margin: 0px 80px 0px -165px; 
+      animation-name: slidein;
+          animation-duration: 3s;
+      }
+  
+  
+      @keyframes slidein {
+              from {
+                margin-top: 150%;
+                width: 100%
+              }
+            
+              to {
+                margin-top: -5%;
+                width: 100%;
+              }
+      }
+   
+    
+    
+    /*cabezera*/
+    
+    header{
+    background-color:#5b7989;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px -80px;
+    width: 80%;
+    height: 130px;
+    margin:10px 60px -10px 176px;
+    
+    }
+    
+    nav{
+      margin-top:10px;
+      display: flex;
+      justify-content: space-around; 
+    }
+    
+    #fotografia{
+      color: white;
+      font-size: 20px;
+      text-shadow: 2px #02010a;
+      margin-left: 15px;
+      
+    }
+    
+    a {
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    
+    .paginainicio:hover{
+       color: chartreuse;
+    }
+    .paginapaisajes:hover{
+      color: chartreuse;
+    }
+    .paginaretrato:hover{
+      color: chartreuse;
+    }
+    .paginapaisajes{
+      text-decoration: inherit;
+      margin:0px 12px 0px 12px;
+    }
+    .paginaretrato{
+      text-decoration: underline;
+    }
+    .paginainicio{
+      margin:0px 13px 0px 3px;
+      text-decoration: underline;
+    }
+    
+    /* la parte del medio */
+    .container{
+      background-color: #d5c75f ;
+      margin:10px 97px -10px 176px;
+      display:flex;
+      flex-direction:  column; 
+      width: 80%;
+    }
+    #cajasArriba{
+      display: flex;
+      flex-direction: column;
+      margin: 10px 200px 10px 40px;
+      justify-content: space-around;
+    }
+    #cajasAbajo{
+      display: flex;
+      flex-direction: column;
+      margin: 10px 200px 10px 40px;
+      justify-content: space-around;
+    }
+    img{
+      width:215px;
+      height: 190px;
+      margin: 0px 30px 0px -20px;
+    }
+    /*pie de pagina*/
+    #pieDePagina{
+      background-color: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;
+      display: flex;
+      flex-direction:  column;
+      justify-content: space-evenly;
+      margin:10px 60px 120px 176px;
+      width: 80%;
+      height: 475px;
+  }
+  #redes img {
+      width: 20px;
+      height: 20px;
+  }
+  p{
+  font-size: 10px;
+  text-align: center;
+  }
+  h2{
+  font-size:15px; 
+  display: flex; 
+  justify-content: flex-start;
+  }
+  #iconos{
+      display: flex;
+      flex-direction: column;
+  }
+  #logos1,#losgos2,#logos3{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  img[src^="logo"]{
+  margin: 0px -10px 0px 0px;
+  
+  }
+  
+} 

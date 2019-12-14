@@ -3,12 +3,10 @@ body {
     background-color: #02010a;
     font-family: 'Dancing Script', cursive;
     width: 100%;
-    margin: 0px 80px 0px -80px;
-    
-    
+    margin: 0px 80px 0px -80px;  
 }
-/*cabezera*/
 
+/*cabezera*/
 
 header{
 background-color:#5b7989;
@@ -20,34 +18,35 @@ border-radius: 10px 10px 0px 0px;
 width: 80%;
 margin:10px 60px -10px 220px;
 }
+
 nav{
     margin-top:50px;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
 }
+
 #fotografia{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 2px #02010a;
     margin-left: 0px;
 }
-a {
+
+a{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     justify-content: space-around;
- }
- .paginainicio:hover{
+}
+
+.paginainicio:hover{
      color: chartreuse;
-
- }
- .paginapaisajes:hover{
+}
+.paginapaisajes:hover{
     color: chartreuse;
-
 }
 .paginaretrato:hover{
     color: chartreuse;
-
 }
 .paginapaisajes{
     text-decoration: underline;
@@ -61,60 +60,61 @@ a {
     text-decoration: inherit;
 }
 
-
-
 /*la parte central y abajo de las imagenes*/
  
- section{
+section{
      background-color: #82c3a6;
      width: 80%;
      margin:10px 60px 10px 220px;
-     }
-
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
  /*imagen central*/
-
- #imagenCentral{
+#centro{
+    display: flex;
+    flex-direction: row;
+}
+#imagenCentral{
      width:100%;
      display: flex;
      justify-content: center;
-     
-    
- }
- #imagenCentral img{
-    width: 500px;
-    height: 300px;
-    margin:10px 0px 10px 0px;
-    box-shadow: 2px 2px 2px  #02010a;
-    
 }
-
+#imagenCentral img{
+    width: 400px;
+    height: 200px;
+    margin:10px 0px 10px 0px;
+    box-shadow: 2px 2px 2px  #02010a;    
+}
 
 /*imagen de abajo*/
 
 #abajo{
     width: 100%;
     display: flex;
-    flex-direction: 2 column;
+    flex-direction: row;
     justify-content: center;
     background-color: #d5c75f ;
     border: 1px;
     justify-content: space-evenly;
-    
-    
 }
 #imagenSecundaria1 img {
-    width: 300px;
-    height: 280px;
+    width: 200px;
+    height: 180px;
     margin:5px 0px 5px 0px;
     box-shadow: 2px 2px 2px  #02010a;
+    display: flex;
+    flex-direction: column;
 }
 #imagenSecundaria2 img {
-    width: 300px;
-    height: 280px;
+    width: 200px;
+    height: 180px;
     margin:5px 0px 5px 0px;
     box-shadow: 2px 2px 2px  #02010a;
+    display: flex;
+    flex-direction: column;
 }
-
 
 /*pie de pagina*/
 
@@ -128,11 +128,11 @@ a {
     width: 80%;
 }
 #redes img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 p{
-font-size: 15px;
+font-size: 10px;
 }
 #redes h2{
 font-size: 20px;
@@ -152,173 +152,36 @@ margin-top:100px;
     border:2px;
    box-shadow: #82c3a6 ;
 }
-/*maximo 900px*/
-@media screen and (max-width:900px) {
-    body {
-        background-color: #02010a;
-        font-family: 'Dancing Script', cursive;
-        width: 100%;
-        margin: 0px 120px 0px -220px;  
-    }
-    /*cabezera*/
-    
-    
-    header{
-    background-color:#5b7989;
-    display: flex;
-    flex-direction: 2 column;
-    color: white;
-    justify-content: space-around;
-    border-radius: 10px 10px 0px 0px;
-    width: 70%;
-    margin:10px 60px -10px 220px;
-    }
-    nav{
-        margin-top:50px;
-        display: flex;
-        justify-content: space-around; 
-    }
-    #fotografia{
-        color: white;
-        font-size: 20px;
-        text-shadow: 2px #02010a;
-        margin-left: 0px;
-    }
-    a {
-        color: white;
-        font-size: 20px;
-        display: flex;
-        justify-content: space-around;
-     }
-     .paginainicio:hover{
-         color: chartreuse;
-    
-     }
-     .paginapaisajes:hover{
-        color: chartreuse;
-    
-    }
-    .paginaretrato:hover{
-        color: chartreuse;
-    
-    }
-    .paginapaisajes{
-        text-decoration: underline;
-        margin:0px 12px 0px 12px;
-    }
-    .paginaretrato{
-        text-decoration: underline;
-    }
-    .paginainicio{
-        margin:0px 13px 0px 3px;
-        text-decoration: inherit;
-    }
-    
-    
-    
-    /*la parte central y abajo de las imagenes*/
-     
-     section{
-         background-color: #82c3a6;
-         width: 70%;
-         margin:10px 60px 10px 220px;
-         }
-    
-     /*imagen central*/
-    
-     #imagenCentral{
-         width:100%;
-         display: flex;
-         justify-content: center;
-         
-        
-     }
-     #imagenCentral img{
-        width: 300px;
-        height: 200px;
-        margin:10px 0px 10px 0px;
-        box-shadow: 2px 2px 2px  #02010a;
-        
-    }
-    
-    
-    /*imagen de abajo*/
-    
-    #abajo{
-        width: 100%;
-        display: flex;
-        flex-direction: 2 column;
-        justify-content: center;
-        background-color: #d5c75f ;
-        border: 1px;
-        justify-content: space-evenly;
-        
-        
-    }
-    #imagenSecundaria1 img {
-        width: 200px;
-        height: 200px;
-        margin:5px 0px 5px 0px;
-        box-shadow: 2px 2px 2px  #02010a;
-    }
-    #imagenSecundaria2 img {
-        width: 200px;
-        height: 200px;
-        margin:5px 0px 5px 0px;
-        box-shadow: 2px 2px 2px  #02010a;
-    }
-    
-    
-    /*pie de pagina*/
-    
-    #pieDePagina{
-        background-color: #C6d5c5;
-        border-radius: 0px 0px 10px 10px;
-        display: flex;
-        flex-direction: 4 column;
-        justify-content: space-evenly;
-        margin:-10px 60px 0px 230px;
-        width: 70%;
-    }
-    #redes img {
-        width: 20px;
-        height: 20px;
-    }
-    p{
-    font-size: 10px;
-    }
-    #redes h2{
-    font-size: 15px;
-    margin-top:100px;
-    }
-    #iconos{
-        display: flex;
-        flex-direction: column;
-    }
-    #imagenSecundaria1:hover{
-        transform: rotate(10deg);
-        border:2px;
-        box-shadow: #82c3a6 ;
-     }
-     #imagenSecundaria2:hover{
-         transform: translate(20px,-5px);
-         border:2px;
-        box-shadow: #82c3a6 ;
-     }
-
-}
 
 
+
+/*________________________________________________*/
 /*maximo 320px*/
+
+
 @media screen and (max-width:320px) {
     body {
         background-color: #02010a;
         font-family: 'Dancing Script', cursive;
         width: 100%;
-        margin: 0px 80px 0px -200px;
-        
-        
+        margin: 0px 0px 0px -220px;
+        animation-name: slidein;
+        animation-duration: 3s;
     }
+
+
+    @keyframes slidein {
+            from {
+              margin-top: 150%;
+              width: 100%
+            }
+          
+            to {
+              margin-top: -5%;
+              width: 100%;
+            }
+    }
+ 
     /*cabezera*/
     
     
@@ -329,40 +192,36 @@ margin-top:100px;
     color: white;
     justify-content: space-around;
     border-radius: 10px 10px 0px 0px;
-    width: 90%;
+    width: 80%;
     height: 80px;
-    margin:10px 60px -10px 220px;
+    margin:10px 90px -10px 235px;
     }
     nav{
-        margin-top:50px;
+        margin-top:40px;
         display: flex;
         justify-content: space-around; 
     }
     #fotografia{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         text-shadow: 2px #02010a;
-        margin:80px 0px 0px 16px;
+        margin:82px 0px 0px 16px;
         text-align: center;
     }
-    a {
+    a{
         color: white;
-        font-size: 10px;
+        font-size: 20px;
         display: flex;
         justify-content: space-around;
-        
-     }
-     .paginainicio:hover{
+    }
+    .paginainicio:hover{
          color: chartreuse;
-    
-     }
-     .paginapaisajes:hover{
+    }
+    .paginapaisajes:hover{
         color: chartreuse;
-    
     }
     .paginaretrato:hover{
         color: chartreuse;
-    
     }
     .paginapaisajes{
         text-decoration: underline;
@@ -377,60 +236,50 @@ margin-top:100px;
         text-decoration: inherit;
     }
     
-    
-    
     /*la parte central y abajo de las imagenes*/
      
-     section{
+    section{
          background-color: #82c3a6;
-         width: 90%;
-         margin:10px 60px 10px 220px;
-         }
+         width: 80%;
+         margin:10px 60px 10px 235px;
+    }
     
      /*imagen central*/
     
-     #imagenCentral{
+    #imagenCentral{
          width:100%;
          display: flex;
          justify-content: center;
-         
-        
-     }
-     #imagenCentral img{
-        width: 140px;
-        height: 90px;
+    }
+    #imagenCentral img{
+        width: 200px;
+        height: 160px;
         margin:10px 0px 10px 0px;
         box-shadow: 2px 2px 2px  #02010a;
-        
     }
-    
     
     /*imagen de abajo*/
     
     #abajo{
-        width: 100%;
         display: flex;
         flex-direction:  column;
         justify-content: center;
         background-color: #d5c75f ;
         border: 1px;
         justify-content: space-evenly;
-        
-        
     }
     #imagenSecundaria1 img {
-        width: 140px;
-        height: 90px;
-        margin:5px 0px 5px 73px;
+        width: 200px;
+        height: 160px;
+        margin:10px 0px 10px 25px;
         box-shadow: 2px 2px 2px  #02010a;
     }
     #imagenSecundaria2 img {
-        width: 140px;
-        height: 90px;
-        margin:5px 0px 5px 73px;
+        width: 200px;
+        height: 160px;
+        margin:10px 0px 10px 25px;
         box-shadow: 2px 2px 2px  #02010a;
     }
-    
     
     /*pie de pagina*/
     
@@ -440,22 +289,22 @@ margin-top:100px;
         display: flex;
         flex-direction:  column;
         justify-content: space-evenly;
-        margin:-10px 60px 20px 220px;
-        width: 90%;
+        margin:-10px 60px 220px 235px;
+        width: 80%;
     }
     #redes img {
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
     }
     p{
-    font-size: 5px;
+    font-size: 15px;
     text-align: center;
+    text-decoration: underline;
     }
-    
     h2{
-    font-size:10px; 
+    font-size:20px; 
     display: flex; 
-    justify-content: center; 
+    justify-content: center;
     }
     #iconos{
         display: flex;
@@ -465,11 +314,11 @@ margin-top:100px;
         transform: rotate(10deg);
         border:2px;
         box-shadow: #82c3a6 ;
-     }
-     #imagenSecundaria2:hover{
+    }
+    #imagenSecundaria2:hover{
          transform: translate(20px,-5px);
          border:2px;
         box-shadow: #82c3a6 ;
-     }
+    }
 
 }
